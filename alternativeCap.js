@@ -17,6 +17,6 @@ function capitalize(s){
   };
 
 
-console.log(capitalize("abcdef"))
-console.log(capitalize("codewars"))
-console.log(capitalize("codewarriors"))
+console.log(capitalize("abcdef")) // ['AbCdEf', 'aBcDeF']
+console.log(capitalize("codewars")) // ['CoDeWaRs', 'cOdEwArS']
+console.log(capitalize("codewarriors")) // ['CoDeWaRrIoRs', 'cOdEwArRiOrS']
